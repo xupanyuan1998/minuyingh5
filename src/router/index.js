@@ -34,23 +34,38 @@ export default new Router({
     {
       path: '/newsdetail',//新闻详情
       name: 'index',
+      meta: {
+        title: '新闻详情'
+      },
       component: index
     },{
       path: '/notice',//通知公告详情
       name: 'notice',
+      meta: {
+        title: '公告详情'
+      },
       component: notice
     },
     {
       path: '/policy',//政策详情
       name: 'policy',
+      meta: {
+        title: '政策详情'
+      },
       component: policy
     },{
       path: '/affairs',//办事指南
       name: 'affairs',
+      meta: {
+        title: '办事指南详情'
+      },
       component: affairs
     },{
       path: '/handle',//政务公开
       name: 'handle',
+      meta: {
+        title: '政务公开详情'
+      },
       component: handle
     },{
       path: '/jingyan',//经验推荐
@@ -60,6 +75,7 @@ export default new Router({
     {
       path: '/zhengce',//政策前瞻
       name: 'zhengce',
+      
       component: zhengce
     },
     {

@@ -221,6 +221,9 @@
         data() {
             return {}
         },
+        created(){
+          document.title='中信银行'
+        },
       methods:{
           goshen(){
             Dialog.alert({

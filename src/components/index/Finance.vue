@@ -1,35 +1,35 @@
 <template>
     <div class="warp">
       <ul>
-        <li @click="goint">
+        <li @click="goint('中信银行')">
           <img src="../../../static/27.png" alt="">
           <span>中国建设银行</span>
         </li>
-        <li  @click="goint">
+        <li  @click="goint('中信银行') ">
           <img src="../../../static/26.png" alt="">
           <span>中国工商银行</span>
         </li>
-        <li  @click="goint">
+        <li  @click="goint('中信银行')">
           <img src="../../../static/28.png" alt="">
           <span>中国民生银行</span>
         </li>
-        <li  @click="goint">
+        <li  @click="goint('中信银行')">
           <img src="../../../static/29.png" alt="">
           <span>中国农业银行</span>
         </li>
-        <li  @click="goint">
+        <li  @click="goint('中信银行')">
           <img src="../../../static/30.png" alt="">
           <span>中国银行</span>
         </li>
-        <li  @click="goint">
+        <li  @click="goint('中信银行')">
           <img src="../../../static/31.png" alt="">
           <span>中国邮政银行</span>
         </li>
-        <li  @click="goint">
+        <li  @click="goint('中信银行')">
           <img src="../../../static/32.png" alt="">
           <span>中国招商银行</span>
         </li>
-        <li  @click="goint">
+        <li  @click="goint('中信银行')">
           <img src="../../../static/33.png" alt="">
           <span>中信银行</span>
         </li>
