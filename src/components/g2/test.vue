@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="aaa">
       <h1>测试报表</h1>
       <div id="earch"></div>
       <router-link to="/tableFa">政策发布效果统计</router-link>
@@ -22,6 +22,30 @@
       <router-link to="/innovate">创新产品</router-link>
       <router-link to="/technology">技术服务</router-link>
       <router-link to="/intermediary">中介服务</router-link>
+      <router-link to="/jili">积利金（增强行）</router-link>
+      <router-link to="/waihui">外汇宝</router-link>
+      <router-link to="/anhua">安徽安华创新风险投资基金有限公司</router-link>
+      <router-link to="/anyuan">安徽安元创新风险投资基金有限公司</router-link>
+      <router-link to="/baoc">太平洋保险</router-link>
+      <router-link to="/guoyuan">国元农业保险</router-link>
+      <router-link to="/dongfang">铜陵东方会计师事务所</router-link>
+      <router-link to="/yongchang">铜陵永昌会计师事务所</router-link>
+      <router-link to="/andan">安徽省信用担保集团</router-link>
+      <router-link to="/tongl">铜陵市担保控股有限公司</router-link>
+      <router-link to="/xianda">安徽宪达律师事务所</router-link>
+      <router-link to="/daqian">安徽大潜律师事务所</router-link>
+      <router-link to="/dong">铜陵东方事务所</router-link>
+      <router-link to="/lan">安徽蓝天会计师事务所</router-link>
+      <router-link to="/shun">顺位财税</router-link>
+      <router-link to="/fuda">铜陵市富达财务代理有限公司</router-link>
+      <router-link to="/zhonghai">中海环境</router-link>
+      <router-link to="/nanda">南大</router-link>
+      <router-link to="/jinyuan">金元节能</router-link>
+      <router-link to="/ruide">瑞德节能</router-link>
+      <router-link to="/changjiang">长江</router-link>
+      <router-link to="/taixiang">泰祥</router-link>
+      <router-link to="/fengrui">丰瑞</router-link>
+      <router-link to="/ailide">爱立德</router-link>
   </div>
 </template>
 
@@ -77,12 +101,15 @@ h1{
   float: left;
   width: 100%;
 }
+.aaa{
+  padding: 0 15px;
+}
 a{
-  display: block;
   height: 30px;
   line-height:30px;
   font-size: 18px;
-  width: 50%;
-  float: left;
+  overflow: hidden;
+  width: 40%;
+  display: inline-block;
 }
 </style>

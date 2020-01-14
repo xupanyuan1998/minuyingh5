@@ -46,8 +46,8 @@
         },
       methods:{
           goint(){
-            //this.$router.push('/bank')
-             AndroidWebView.jump_new_window('http://101.37.65.219:8081/app/#/bank');
+            this.$router.push('/bank')
+            // AndroidWebView.jump_new_window('http://101.37.65.219:8081/app/#/bank');
           }
       }
     }

@@ -75,7 +75,7 @@ export default new Router({
     {
       path: '/zhengce',//政策前瞻
       name: 'zhengce',
-      
+
       component: zhengce
     },
     {
@@ -122,11 +122,137 @@ export default new Router({
       name:'Finance',
       component:()=>import('@/components/index/Finance'),
     },//金融机构
+
+
     {
       path:'/bank',
       name:'bank',
-      component:()=>import('@/components/index/bank'),
+      component:()=>import('@/components/chaoshi/bank'),
     },//金融机构详情
+    {
+      path:'/jili',
+      name:'jili',
+      component:()=>import('@/components/chaoshi/jili'),
+    },//积利金
+    {
+      path:'/waihui',
+      name:'waihui',
+      component:()=>import('@/components/chaoshi/waihui'),
+    },//外汇宝
+    {
+      path:'/anhua',
+      name:'anhua',
+      component:()=>import('@/components/chaoshi/anhua'),
+    },//安华创新
+    {
+      path:'/anyuan',
+      name:'anyuan',
+      component:()=>import('@/components/chaoshi/anyuan'),
+    },//安徽安元
+    {
+      path:'/baoc',
+      name:'baoc',
+      component:()=>import('@/components/chaoshi/baoc'),
+    },//太平洋保险
+    {
+      path:'/guoyuan',
+      name:'guoyuan',
+      component:()=>import('@/components/chaoshi/guoyuan'),
+    },//国元农业保险
+    {
+      path:'/dongfang',
+      name:'dongfang',
+      component:()=>import('@/components/chaoshi/dongfang'),
+    },//铜陵东方会计师事务所
+    {
+      path:'/yongchang',
+      name:'yongchang',
+      component:()=>import('@/components/chaoshi/yongchang'),
+    },//铜陵永昌会计师事务所
+    {
+      path:'/andan',
+      name:'andan',
+      component:()=>import('@/components/chaoshi/andan'),
+    },//安徽省信用担保集团
+    {
+      path:'/tongl',
+      name:'tongl',
+      component:()=>import('@/components/chaoshi/tongl'),
+    },//铜陵市担保控股有限公司
+    {
+      path:'/xianda',
+      name:'xianda',
+      component:()=>import('@/components/server/falv'),
+    },//安徽宪达律师事务所
+    {
+      path:'/daqian',
+      name:'daqian',
+      component:()=>import('@/components/server/daqian'),
+    },//安徽大潜律师事务所
+    {
+      path:'/dong',
+      name:'dong',
+      component:()=>import('@/components/server/dong'),
+    },//铜陵东方事务所
+    {
+      path:'/lan',
+      name:'lan',
+      component:()=>import('@/components/server/lan'),
+    },//安徽蓝天会计事务所
+    {
+      path:'/shun',
+      name:'shun',
+      component:()=>import('@/components/server/shun'),
+    },//顺位财税
+    {
+      path:'/fuda',
+      name:'fuda',
+      component:()=>import('@/components/server/fuda'),
+    },//铜陵市富达财务代理有限公司
+    {
+      path:'/zhonghai',
+      name:'zhonghai',
+      component:()=>import('@/components/server/zhonghai'),
+    },//中海
+    {
+      path:'/nanda',
+      name:'nanda',
+      component:()=>import('@/components/server/nanda'),
+    },//南大
+    {
+      path:'/jinyuan',
+      name:'jinyuan',
+      component:()=>import('@/components/server/jinyuan'),
+    },//金源
+    {
+      path:'/ruide',
+      name:'ruide',
+      component:()=>import('@/components/server/ruide'),
+    },//瑞德
+    {
+      path:'/changjiang',
+      name:'changjiang',
+      component:()=>import('@/components/server/changjiang'),
+    },//长江
+    {
+      path:'/taixiang',
+      name:'taixiang',
+      component:()=>import('@/components/server/taixiang'),
+    },//泰祥
+    {
+      path:'/fengrui',
+      name:'fengrui',
+      component:()=>import('@/components/server/fengrui'),
+    },//丰瑞
+    {
+      path:'/ailide',
+      name:'ailide',
+      component:()=>import('@/components/server/alide'),
+    },//爱立德
+
+
+
+
     {
       path:'/innovate',
       name:'innovate',
